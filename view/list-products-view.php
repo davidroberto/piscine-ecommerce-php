@@ -17,9 +17,13 @@
   <main>
 
   <?php foreach($products as $product) { ?>
-		<article>
-			<h2><?php echo $product["title"]; ?></h2>
-		</article>
+    <?php if ($product["isPublished"] === true) { ?>
+
+      <article>
+        <h2><?php echo $product["title"]; ?></h2>
+      </article>
+      
+    <?php } ?>  
 
 	<?php } ?>
 

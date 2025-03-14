@@ -8,7 +8,7 @@ $products = [
         'image'          => 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Single_door_refrigerator.jpg',
         'isPublished'    => true,
         'category'       => 'Réfrigérateur',
-        'publishedAt'    => '2025-03-10'
+        'publishedAt'    => new DateTime('2025-03-10')
     ],
     [
         'title'          => 'Machine à laver LG',
@@ -17,7 +17,7 @@ $products = [
         'image'          => 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Washing_machine_photo.jpg',
         'isPublished'    => true,
         'category'       => 'Lave-linge',
-        'publishedAt'    => '2025-02-28'
+        'publishedAt'    => new DateTime('2025-02-28')
     ],
     [
         'title'          => 'Lave-vaisselle Bosch',
@@ -26,7 +26,7 @@ $products = [
         'image'          => 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Dishwasher_open.jpg',
         'isPublished'    => false,
         'category'       => 'Lave-vaisselle',
-        'publishedAt'    => '2025-01-15'
+        'publishedAt'    => new DateTime('2025-01-15')
     ],
     [
         'title'          => 'Micro-ondes Whirlpool',
@@ -35,7 +35,7 @@ $products = [
         'image'          => 'https://upload.wikimedia.org/wikipedia/commons/9/93/Microwave_oven.jpg',
         'isPublished'    => true,
         'category'       => 'Micro-ondes',
-        'publishedAt'    => '2025-03-01'
+        'publishedAt'    => new DateTime('2025-03-01')
     ],
     [
         'title'          => 'Four encastrable Siemens',
@@ -44,6 +44,6 @@ $products = [
         'image'          => 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Siemens_oven.jpg',
         'isPublished'    => true,
         'category'       => 'Fours',
-        'publishedAt'    => '2025-03-12'
+        'publishedAt'    => new DateTime('2025-03-12')
     ],
 ];
